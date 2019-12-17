@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Intro to Grey</title>
+  </head>
+
+  <body onload="main()">
+    <canvas id="canvas" width="400" height="400">
+		Please use a browser that supports "canvas"
+    </canvas>
+
+    <canvas id="canvas2" width="400" height="400">
+		Please use a browser that supports "canvas"
+    </canvas>
+
+    <form><table>
+  	<tr><th>Grey Shading Features</th><th>Colouring Filters</th><th>Grey Filters</th><th> Colour Combinations</th></tr>
+  	<tr>
+  		<td>
+  			<input type="radio" name="imgChg" value="1"  onchange="applyFilter(100);" >Averaging</input><br/>
+        <input type="radio" name="imgChg" value="1"  onchange="applyFilter(101);" >Luma</input><br/>
+        <input type="radio" name="imgChg" value="1"  onchange="applyFilter(102);" >Luminance</input><br/>
+        <input type="radio" name="imgChg" value="1"  onchange="applyFilter(103);" >De-Saturation</input><br/>
+        <input type="radio" name="imgChg" value="1"  onchange="applyFilter(104);" >Maximum Decomposition</input><br/>
+        <input type="radio" name="imgChg" value="1"  onchange="applyFilter(105);" >Mininum Decomposition</input><br/>
+        <input type="radio" name="imgChg" value="1"  onchange="applyFilter(106);" >Red As Grey</input><br/>
+        <input type="radio" name="imgChg" value="1"  onchange="applyFilter(107);" >Green As Grey</input><br/>
+        <input type="radio" name="imgChg" value="1"  onchange="applyFilter(108);" >Blue As Grey</input><br/>
+  		</td>
+      <br>
+  		<td>
+        <input type="radio" name="imgChg" value="1"  onchange="applyFilter(109);" >Only Red</input><br/>
+        <input type="radio" name="imgChg" value="1"  onchange="applyFilter(110);" >Only Green</input><br/>
+        <input type="radio" name="imgChg" value="1"  onchange="applyFilter(111);" >Only Blue</input><br/>
+        <input type="radio" name="imgChg" value="1"  onchange="applyFilter(112);" >Green And Blue</input><br/>
+        <input type="radio" name="imgChg" value="1"  onchange="applyFilter(113);" >Red And Blue</input><br/>
+        <input type="radio" name="imgChg" value="1"  onchange="applyFilter(114);" >Green And Red</input><br/>
+  		</td>
+      <br>
+      <br>
+  		<td>
+        <input type="radio" name="imgChg" value="1"  onchange="applyFilter(115);" >Grey Palette 4</input><br/>
+        <input type="radio" name="imgChg" value="1"  onchange="applyFilter(116);" >Grey Palette 16</input><br/>
+        <input type="radio" name="imgChg" value="1"  onchange="applyFilter(117);" >Grey Palette 32</input><br/>
+        <input type="radio" name="imgChg" value="1"  onchange="applyFilter(118);" >Grey Palette 50</input><br/>
+  		</td>
+      <br>
+      <br>
+  		<td>
+        <input type="radio" name="imgChg" value="1"  onchange="applyFilter(119);" >64 Colours</input><br/>
+        <input type="radio" name="imgChg" value="1"  onchange="applyFilter(120);" >512 Colours</input><br/>
+        <input type="radio" name="imgChg" value="1"  onchange="applyFilter(121);" >4096 Colours</input><br/>
+        <input type="radio" name="imgChg" value="1"  onchange="applyFilter(122);" >125000 Colours</input><br/>
+        <input type="radio" name="imgChg" value="1" onchange="applyFilter(0);" checked>Reset</input><br/>
+  		</td>
+  	</tr>
+  	</table></form>
+   <script src="assignment6.js"></script>
+  </body>
+</html>
